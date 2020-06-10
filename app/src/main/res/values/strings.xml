@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Expense Management</string>
+    <string-array name="MainExpenseCode">
+        <item>"JIO"</item>
+        <item>"-"</item>
+        <item>"SALARY"</item>
+        <item>"SALARY"</item>
+        <item>"AIRTEL"</item>
+        <item>"JIO"</item>
+        <item>"-"</item>
+        <item>"JIO"</item>
+        <item>"AIRTEL"</item>
+
+
+    </string-array>
+    <string-array name="MainExpenseCode1">
+        <item>"JIO"</item>
+
+        <item>"SALARY"</item>
+        <item>"SALARY"</item>
+        <item>"AIRTEL"</item>
+        <item>"JIO"</item>
+
+        <item>"JIO"</item>
+        <item>"AIRTEL"</item>
+
+
+    </string-array>
+
+    <string-array name="SubExpenseCode">
+        <item>"MOHIT"</item>
+        <item>"-"</item>
+        <item>"HARSH"</item>
+        <item>"PRAKHAR"</item>
+        <item>"YASH"</item>
+        <item>"RAHUL"</item>
+        <item>"-"</item>
+        <item>"ISHITA"</item>
+        <item>"KRATIKA"</item>
+
+    </string-array>
+    <string-array name="SubExpenseCode1">
+        <item>"MOHIT"</item>
+
+        <item>"HARSH"</item>
+        <item>"PRAKHAR"</item>
+        <item>"YASH"</item>
+        <item>"RAHUL"</item>
+
+        <item>"ISHITA"</item>
+        <item>"KRATIKA"</item>
+
+    </string-array>
+    <string-array name="Limit">
+        <item>"0"</item>
+        <item>"10000"</item>
+        <item>"10000"</item>
+        <item>"500"</item>
+        <item>"700"</item>
+        <item>"1500"</item>
+        <item>"0"</item>
+        <item>"0"</item>
+        <item>"1000"</item>
+
+    </string-array>
+
+    <string-array name="ReceiptNo">
+        <item>"36AA452"</item>
+        <item>"36AA443"</item>
+        <item>"36AA447"</item>
+        <item>"36AF493"</item>
+        <item>"33AA454"</item>
+        <item>"26AA455"</item>
+        <item>"36FA765"</item>
+        <item>"36AB492"</item>
+        <item>"36BC452"</item>
+
+    </string-array>
+    <string-array name="DateEntry">
+        <item>"1/4/18"</item>
+        <item>"7/3/18"</item>
+        <item>"17/4/18"</item>
+        <item>"1/6/18"</item>
+        <item>"14/3/18"</item>
+        <item>"5/4/18"</item>
+        <item>"8/5/18"</item>
+        <item>"24/4/18"</item>
+        <item>"29/5/18"</item>
+
+    </string-array>
+    <string-array name="FromHead">
+        <item>"NCS"</item>
+        <item>"-"</item>
+        <item>"SunRays"</item>
+        <item>"TCS"</item>
+        <item>"INFOSYS"</item>
+        <item>"ACCENTURE"</item>
+        <item>"-"</item>
+        <item>"INFOTECH"</item>
+        <item>"UNIVERSAL"</item>
+
+    </string-array>
+    <string-array name="Amount">
+        <item>"1000"</item>
+        <item>"4000"</item>
+        <item>"650"</item>
+        <item>"950"</item>
+        <item>"1650"</item>
+        <item>"100"</item>
+        <item>"60"</item>
+        <item>"1500"</item>
+        <item>"250"</item>
+
+    </string-array>
+    <string-array name="Remark">
+        <item>"Petrol"</item>
+        <item>"Repairing"</item>
+        <item>"Food"</item>
+        <item>"Refreshments"</item>
+        <item>"Petrol"</item>
+        <item>"Water"</item>
+        <item>"Refreshments"</item>
+        <item>"Petrol"</item>
+        <item>"Food"</item>
+
+    </string-array>
+</resources>

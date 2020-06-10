@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/DimGray"
+    android:padding="4dp"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Receipt Number"
+                android:id="@+id/tvReceiptNo_entry"
+                android:layout_marginTop="0dp"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:id="@+id/tvDate"
+                android:layout_marginTop="10dp"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Head"
+                android:id="@+id/tvfromHead"
+                android:layout_marginTop="10dp"
+                android:textSize="17dp"/>
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Main Expense"
+                android:id="@+id/tvmainExpense"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sub Expense"
+                android:inputType="number"
+                android:id="@+id/tvsubExpense"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Amount"
+                android:id="@+id/tvamount"
+                android:inputType="textEmailAddress"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Remark"
+                android:id="@+id/tvremark"
+                android:inputType="textEmailAddress"
+                android:textSize="17dp"/>
+
+        </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout_entry"
+                android:orientation="vertical"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="4dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Receipt Number"
+                    android:id="@+id/tvReceiptNo_entry2"
+                    android:layout_marginTop="0dp"
+                    android:textSize="17dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:id="@+id/tvDate2"
+                    android:layout_marginTop="10dp"
+                    android:textSize="17dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="From Head"
+                    android:id="@+id/tvfromHead2"
+                    android:layout_marginTop="10dp"
+                    android:textSize="17dp"/>
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Main Expense"
+                    android:id="@+id/tvmainExpense2"
+                    android:textSize="17dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Sub Expense"
+                    android:inputType="number"
+                    android:id="@+id/tvsubExpense2"
+                    android:textSize="17dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Amount"
+                    android:id="@+id/tvamount2"
+                    android:inputType="textEmailAddress"
+                    android:textSize="17dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Remark"
+                    android:id="@+id/tvremark2"
+                    android:inputType="textEmailAddress"
+                    android:textSize="17dp"/>
+
+
+            </LinearLayout>
+
+            </LinearLayout>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="36dp"
+            android:background="@drawable/buttonframe_others"
+            android:layout_marginTop="245dp"
+            android:layout_marginBottom="15dp"
+            android:text="Undeclared"
+            android:layout_marginLeft="200dp"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:id="@+id/btnfill"
+            />
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
